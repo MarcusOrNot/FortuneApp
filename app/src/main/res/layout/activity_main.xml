@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="#000000">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loseBTN"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect_rounded1"
+            android:text="LOSE"
+            android:textColor="@color/white"
+            android:fontFamily="@font/star_wars_font"></androidx.appcompat.widget.AppCompatButton>
+
+        <TextView
+            android:id="@+id/infoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/star_wars_yellow"
+            android:text="WIN to start"
+            android:layout_weight="1"
+            android:fontFamily="@font/star_wars_font"></TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/winBTN"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/rect_rounded3"
+            android:fontFamily="@font/star_wars_font"
+            android:text="WIN"></androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/star_wars_yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar"></FrameLayout>
+
+    <WebView
+        android:id="@+id/main_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

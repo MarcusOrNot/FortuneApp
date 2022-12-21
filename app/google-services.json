@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "184871961773",
+    "project_id": "apple-of-fortune-a5713",
+    "storage_bucket": "apple-of-fortune-a5713.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184871961773:android:6150e00d56ded63bc17224",
+        "android_client_info": {
+          "package_name": "com.android.appleoffortune"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184871961773-3gbrs3hi47fkfnn4121m93rjmdqcl516.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkSw9Rt7JL_dAYpX4yLevAKZ3RkOPWJA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184871961773-3gbrs3hi47fkfnn4121m93rjmdqcl516.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184871961773:android:bff3a75ed226e633c17224",
+        "android_client_info": {
+          "package_name": "com.android.appleoffortunesignup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184871961773-3gbrs3hi47fkfnn4121m93rjmdqcl516.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkSw9Rt7JL_dAYpX4yLevAKZ3RkOPWJA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184871961773-3gbrs3hi47fkfnn4121m93rjmdqcl516.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
